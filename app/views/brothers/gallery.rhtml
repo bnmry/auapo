@@ -1,0 +1,9 @@
+<h4>Eta Phi Brothers in Pictures</h4>
+<% for brother in @brothers%>
+<% @user = brother%>
+<% if !brother.picture.nil?%><img style="margin:10px" width="100" src="<%= url_for_file_column 'user', 'picture', 'medium' %>"><% end %>
+<% end %>
+
+<% if logged_in? %>
+<p>Don't see your picture? <%= link_to "Upload it!", :controller => "user", :action => "picture" %></p>
+<% end %>

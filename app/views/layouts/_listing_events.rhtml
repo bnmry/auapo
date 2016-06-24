@@ -1,0 +1,6 @@
+<ul class="selected">
+	<li>
+		<%= link_to @event_type.title, :action => "show", :id => @event_type %> (<%= pluralize(@event_type.length_in_hours, "hour") %> for <%= @event_type.category.title %>)<br>
+		<span>Date goes here  |  "<%= h(truncate(@event_type.description, 180)) %>"</span>
+	</li>
+</ul>

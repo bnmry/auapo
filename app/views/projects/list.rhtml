@@ -1,0 +1,17 @@
+<h4>Service Projects</h4>
+<% if @project_pages %>
+	<p id="panel">Pages: <%= pagination_links(@project_pages) %></p>
+<% end -%>
+<% for project in @projects %>
+<ul class="interests">
+	<li>
+		<span class="ticketController">
+			<%= image_tag("/images/icon-auto.gif") unless !project.auto_needed? %> <%= image_tag("/images/icon-car.gif") unless !project.car_needed? %>
+		</span>
+		<%= link_to project.title, :action => "show", :id => project %> (<% if is_closed?(project.id) %><span style="color:#E28F22">project is closed</span><% else %><%= pluralize(project.length_in_hours, 'hour') %>  for <%= project.category.title %><% end %>)<br>
+		<span><%= project.start_time.strftime("%B %d, %Y at %I:%M %p" )%>  |  "<%= h(truncate(project.description, 180)) %>"</span>
+	</li>
+</ul>
+<% end %>
+
+<%= auto_discovery_link_tag(:rss ,:action  =>  'rss') %>

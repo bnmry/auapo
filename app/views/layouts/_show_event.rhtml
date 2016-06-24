@@ -1,0 +1,67 @@
+<% if event_is_over? %>
+	<% if can_edit_event?(@event.id) %>
+			<p id="alertHeader">This event has passed and you are the leader.  To log hours, confirm that each brother has completed the event by clicking "Completed the Event" next to their name.  After marking those that completed the event, reload the page to enter their hours.  The hours are preloaded with the event defaults.  Click on an hour to change it.</p>
+	<% else%>
+		<div id="notice">This event has passed</div>
+	<% end %>
+<% else %>
+	<% if can_edit_event?(@event.id)%>
+		<div id="notice">This is your event.  Would you like to <%= link_to "edit", :action => "edit", :id => @event.id %> or <%= link_to "delete", {:action => "destroy", :id => @event.id}, {:confirm => "Are you sure? This will delete EVERYTHING associated with this event, including hours and reports."} %> it?</div>
+	<% elsif !is_not_attending?%>
+		<div id="notice">You are signed up for this event</div>
+	<% end %>
+<% end %>
+
+
+<h4><% if is_closed?(@event.id)%><span style="color:#E28F22">closed:</span><% else %><%= @event_name %>:<% end%> <%= @event.title %>  <%= image_tag("/images/icon-auto.gif") unless !@event.auto_needed? %> <%= image_tag("/images/icon-car.gif") unless !@event.car_needed? %></h4>
+<div class="summary">leader: <%= link_to "#{@event.user.firstname} #{@event.user.lastname}", :controller => "brothers", :action => "meet", :id => @event.user.id %> | <strong><%= pluralize(@event.length_in_hours, "hour") %></strong><% if @event.activity_id != 3%> will count for: <strong><%= @event.category.title%></strong><% end %></div>
+	<p id="panel"><%= h(@event.description) %></p>
+	<p><label>Begins:</label> <%= @event.start_time.strftime("%B %d, %Y at %I:%M %p" )%></p>
+	<p><label>Ends:</label> <%= @event.end_time.strftime("%B %d, %Y at %I:%M %p" )%></p>
+	<p><label>Location:</label> <%= textilize(@event.location) %></p>
+	
+
+	<h5>Attendees <% if @event.attendee_limit > 0%>(limit <%= @event.attendee_limit%>)<% end %></h5>
+	
+		<ul id="interests">
+			<% for @attendees in @attendees %>
+	    		<%= render :partial => "layouts/attendees", :object => @attendees %>
+			<% end %>
+		</ul>
+		<p style="font-size:x-small; font-color:#ccc; background:#ffc"><strong>NOTE</strong>: To withdraw from this event, please email the leader.</p>
+		<% if !event_is_over? %>
+		<% if is_not_attending? %>
+		<% if @event.is_closed != 1 %>
+		
+			<% form_remote_tag(:url => { :action => "signup" }, 
+								:update => 'interests',
+								:position => :bottom) do %>
+			<%= hidden_field 'hours', 'user_id', :value => current_user.id %>
+			<%= hidden_field 'hours', 'event_id', :value => @event.id %>
+			<%= hidden_field 'hours', 'status', :value => "1" %>
+			<%= hidden_field 'hours', 'hours', :value => @event.length_in_hours %>
+			<%= hidden_field 'hours', 'category_id', :value => @event.category_id %>
+			<%= hidden_field 'hours', 'activity_id', :value => @event.activity_id %>
+			<%= submit_tag("Sign up for this event")%>
+			<% end %>
+		<% end%>
+		<% end %>
+		<% end %>
+		
+		<% if is_administrator? %>
+		<ul id="interests">
+			<li>
+			<span>Add a brother to this event's list of attendees:<br></span>
+			<% form_remote_tag(:url => { :action => "signup" }, 
+								:update => 'interests',
+								:position => :bottom) do %>
+			<%= @brothers = User.find(:all, :order => "lastname", :conditions => ["status_id != 2" ])
+				collection_select(:hours, :user_id, @brothers, :id, :lastname)%>
+				<%= hidden_field 'hours', 'event_id', :value => @event.id %>
+				<%= hidden_field 'hours', 'status', :value => "1" %>
+				<%= hidden_field 'hours', 'hours', :value => @event.length_in_hours %>
+				<%= hidden_field 'hours', 'category_id', :value => @event.category_id %>
+				<%= hidden_field 'hours', 'activity_id', :value => @event.activity_id %>
+				<%= submit_tag("Add to this event")%>
+				<% end %>
+		<% end %>

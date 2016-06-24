@@ -1,0 +1,25 @@
+<h3>The Pages on AUAPO</h3>
+<% if !is_administrator? %>
+<p>If you'd like to create a new page, please contact a member of the e-board.  Only e-board members may create, edit or delete these pages.</p>
+<% end %>
+
+<% if is_administrator? %>
+<p>This is a list of all content pages on our website.  The welcome page is here, and so are the "about" pages and information on Rush.  If you need to make a page with text, information, pictures, etc, this is your spot.  Once you create the page, make sure to link to it from somewhere else in the site.  If you want it in the menu bar, talk to the site administrator.</p>
+
+<p><%= link_to "Create a new page", :action => "new" %>
+
+<% end %>
+  
+<% for page in @pages %>
+<ul class="interests">
+	<li>
+		<% if is_administrator? %>
+		<span class="ticketController">
+			<%= link_to 'Edit', :action => 'edit', :id => page %>  |  <%= link_to 'Destroy', { :action => 'destroy', :id => page }, :confirm => 'Are you sure?', :method => :post  %>
+		</span>
+		<% end %>
+		<%= link_to page.title, :action => "show", :id => page %><br>
+		<span>"<%= h(truncate(page.body, 180)) %>"</span>
+	</li>
+</ul>
+<% end %>

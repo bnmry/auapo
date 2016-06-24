@@ -1,0 +1,55 @@
+8
+
+dir
+13
+http://svn.auapo.org/auapo2/lib
+http://svn.auapo.org/auapo2
+
+
+
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+321601bf-4b3a-0410-9e98-863aa7267c5d
+
+authenticated_test_helper.rb
+file
+
+
+
+
+2008-09-28T23:21:31.000000Z
+1beddbef80880000486d28261ea3cf21
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+tasks
+dir
+
+authenticated_system.rb
+file
+
+
+
+
+2008-09-28T23:21:31.000000Z
+64aab699a849ee111c6700ef3f4f7118
+2007-09-17T02:54:10.549913Z
+1
+auapo
+

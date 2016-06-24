@@ -1,0 +1,94 @@
+<%= error_messages_for 'user' %>
+<!--[form:user]-->
+<!-- all custom fields here -->
+<p>
+	<label for="user_firstname">First name:</label>
+	<%= text_field 'user', 'firstname' %>
+</p>
+
+<p>
+	<label for="user_lastname">Last name:</label>
+	<%= text_field 'user', 'lastname' %>
+</p>
+
+<p>
+	<label for="user_family_id">Family:</label>
+	<%= @families = Family.find(:all, :order => "name")
+		collection_select(:user, :family_id, @families, :id, :name)%>
+</p>
+
+<p>
+	<label for="user_committee_id">Committee:</label>
+	<%= @committees = Committee.find(:all, :order => "id")
+		collection_select(:user, :committee_id, @committees, :id, :name)%>
+</p>
+
+<p>
+	<label for="user_class_id">Pledge class:</label>
+	<%= @pledgeclasses = Pledgeclass.find(:all, :order => "id")
+		collection_select(:user, :pledgeclass_id, @pledgeclasses, :id, :name)%>
+</p>
+
+
+
+<% if is_administrator? %>
+<p>
+	<label for="user_position_id">Position:</label>
+	<%= @positions = Position.find(:all, :order => "id")
+		collection_select(:user, :position_id, @positions, :id, :name)%>
+</p>
+<% end %>
+
+<p>
+	<label for="user_address1">Address:</label>
+	<%= text_field 'user', 'address1' %>
+</p>
+
+<p>
+	<label for="user_address2"> </label>
+	<%= text_field 'user', 'address2' %>
+</p>
+
+<p>
+	<label for="user_city">City:</label>
+	<%= text_field 'user', 'city' %>
+</p>
+
+<p>
+	<label for="user_state">State:</label>
+	<%= text_field 'user', 'state' %>
+</p>
+
+<p>
+	<label for="user_zip">Zip code:</label>
+	<%= text_field 'user', 'zip' %>
+</p>
+
+<p>
+	<label for="user_telephone">Telephone:</label>
+	<%= text_field 'user', 'telephone' %>
+</p>
+
+<p>
+	<label for="user_email">E-Mail:</label>
+	<%= text_field 'user', 'email' %>
+</p>
+<br><br>
+<p>
+	<label for="user_login">Login Name:</label>
+	<%= text_field 'user', 'login' %>
+</p>
+
+<p>
+	<label for="user_password">Password:</label>
+	<%= password_field 'user', 'password' %>
+</p>
+
+<p>
+	<label for="user_password">Re-type Password:</label>
+	<%= password_field 'user', 'password_confirmation' %>
+</p>
+    
+<p><%= submit_tag 'Submit' %></p>
+
+<!--[eoform:user]-->

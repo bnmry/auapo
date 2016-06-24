@@ -1,0 +1,8 @@
+<%= start_form_tag :action => 'update' %>
+<fieldset>
+	<legend>Edit Your Eta Phi Account</legend>
+	<p class="summary">All fields are required.</p>
+    <%= render :partial => 'userForm' %>
+ 
+</fieldset>
+<%= end_form_tag %>

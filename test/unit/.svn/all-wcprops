@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/auapo2/!svn/ver/11/test/unit
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/auapo2/!svn/ver/1/test/unit/user_test.rb
+END
+event_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/test/unit/event_test.rb
+END
+family_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/auapo2/!svn/ver/1/test/unit/family_test.rb
+END
+goal_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/auapo2/!svn/ver/1/test/unit/goal_test.rb
+END
+status_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/auapo2/!svn/ver/1/test/unit/status_test.rb
+END
+message_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/11/test/unit/message_test.rb
+END
+committee_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/test/unit/committee_test.rb
+END
+pledgeclass_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/test/unit/pledgeclass_test.rb
+END
+activity_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/test/unit/activity_test.rb
+END
+newsletter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/auapo2/!svn/ver/1/test/unit/newsletter_test.rb
+END
+fellowships_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/test/unit/fellowships_test.rb
+END
+fundraiser_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/auapo2/!svn/ver/1/test/unit/fundraiser_test.rb
+END
+position_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/test/unit/position_test.rb
+END
+project_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/auapo2/!svn/ver/1/test/unit/project_test.rb
+END
+teams_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/test/unit/teams_test.rb
+END
+code_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/auapo2/!svn/ver/1/test/unit/code_test.rb
+END
+fellowship_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/auapo2/!svn/ver/1/test/unit/fellowship_test.rb
+END
+hour_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/auapo2/!svn/ver/1/test/unit/hour_test.rb
+END
+category_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/test/unit/category_test.rb
+END
+user_notifier_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/auapo2/!svn/ver/1/test/unit/user_notifier_test.rb
+END

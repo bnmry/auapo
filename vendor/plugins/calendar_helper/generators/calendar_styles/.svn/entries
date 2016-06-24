@@ -1,0 +1,43 @@
+8
+
+dir
+13
+http://svn.auapo.org/auapo2/vendor/plugins/calendar_helper/generators/calendar_styles
+http://svn.auapo.org/auapo2
+
+
+
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+321601bf-4b3a-0410-9e98-863aa7267c5d
+
+calendar_styles_generator.rb
+file
+
+
+
+
+2008-09-28T23:21:34.000000Z
+8a4a5c72b025f93992474d0292f3ff61
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+templates
+dir
+

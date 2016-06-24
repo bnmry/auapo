@@ -1,0 +1,12 @@
+<% if !logged_in? %>
+<li>	
+<h3>President</h3>
+<p><%= enkode_mail('president@auapo.org', 'Jen Shuman')%></p>
+<h3>Service VP</h3>
+<p><%= enkode_mail('service@auapo.org', 'Jen Dearden')%></p>
+<h3>Membership VP</h3>
+<p><%= enkode_mail('membership@auapo.org', 'Elissa Robinson')%></p>
+<h3>Fellowship VP</h3>
+<p><%= enkode_mail('fellowship@auapo.org', 'Don Michael Mendoza')%></p>
+</li>
+<% end %>

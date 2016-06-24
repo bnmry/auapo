@@ -1,0 +1,72 @@
+<ul class="tabbedMenu">
+	<li><%= link_to "my home", :controller => "account", :action => "index" %></li>
+	<li><%= link_to "my upcoming events", :action => "upcoming", :controller => "hours" %></li>
+	<li class="selected"><%= link_to "my completed events", :controller => "hours", :action => "index" %></li>
+</ul>
+  <% if is_administrator?
+  		if params[:id]
+    		person = params[:id]
+  		else
+    		person = current_user.id
+  		end
+	else
+  		person = current_user.id
+	end %>
+<% user = User.find_by_id(person)%>
+<h4><%= user.firstname %> <%= user.lastname %>'s Completed Hours</h4>
+
+
+<% if @project_hours.nil? %>
+	<h5>You have not completed any service projects</h5>
+<% else%>
+	<h5>Completed Service Projects (<%= pluralize(@project_hours, "hour") %>) <%= horizontal_bar_graph  ['hours', @percentage]%></h5>
+
+		<ul id="interests">
+			<% for projects in @projects %>
+			<li>
+				<span class="ticketController">
+					<%= pluralize(projects.hours, "hour") %> for <%= projects.category.title %>
+				</span>
+
+				<%= link_to projects.event.title, :controller => "projects", :action => "show", :id => projects.event.id %>
+					<br />
+				     <span>leader: <%= projects.event.user.firstname %> <%= projects.event.user.lastname %>  |  completed on <%= projects.event.start_time.strftime("%B %d, %Y" )%></span>
+			</li>
+			<% end %>
+		</ul>
+<% end %>
+
+<% if @fellowship_events.nil? %>
+	<h5>You have not attended any fellowships</h5>
+<% else%>
+	<h5>Completed Fellowships (<%= pluralize(@fellowship_events, "event") %>)</h5>
+		<ul id="interests">
+			<% for fellowships in @fellowships %>
+			<li>
+
+				<%= link_to fellowships.event.title, :controller => "fellowships", :action => "show", :id => fellowships.event.id %>
+					<br />
+				     <span>leader: <%= fellowships.event.user.firstname %> <%= fellowships.event.user.lastname %>  |  completed on <%= fellowships.event.start_time.strftime("%B %d, %Y" )%></span>
+			</li>
+			<% end %>
+		</ul>
+<% end %>
+
+<% if @fundraising_hours.nil? %>
+	<h5>You have not completed any fundraisers</h5>
+<% else%>
+	<h5>Completed Fundraisers (<%= pluralize(@fundraising_hours, "hour") %>)</h5>
+		<ul id="interests">
+			<% for fundraisers in @fundraisers %>
+			<li>
+				<span class="ticketController">
+					<%= pluralize(fundraisers.hours, "hour") %> for <%= fundraisers.category.title %>
+				</span>
+
+				<%= link_to fundraisers.event.title, :controller => "fundraisers", :action => "show", :id => fundraisers.event.id %>
+					<br />
+				     <span>leader: <%= fundraisers.event.user.firstname %> <%= fundraisers.event.user.lastname %>  |  completed on <%= fundraisers.event.start_time.strftime("%B %d, %Y" )%></span>
+			</li>
+			<% end %>
+		</ul>
+<% end %>

@@ -1,0 +1,2 @@
+module PledgeclassesHelper
+end

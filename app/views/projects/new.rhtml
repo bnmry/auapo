@@ -1,0 +1,10 @@
+<% form_tag(:action => "create") do %>
+<fieldset>
+	<legend>Create A Project</legend>
+	<p class="summary">All fields are required</p>
+	<% @event_type = 'project' %>
+  	<%= render :partial => '/layouts/form_event' %>
+	<%= hidden_field 'event', 'activity_id', :value => "1"%>
+  	<%= submit_tag "Create" %>
+</fieldset>
+<% end %>

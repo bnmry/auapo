@@ -1,0 +1,9 @@
+<% form_tag(:action => "update", :id => @event) do  %>
+<fieldset>
+	<legend>Edit "<%= @event.title %>"</legend>
+	<p class="summary">All fields are required</p>
+	<% @event_type = 'project' %>
+  	<%= render :partial => '/layouts/form_event' %>
+  	<%= submit_tag "Update" %>
+</fieldset>
+<% end %>

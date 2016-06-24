@@ -1,0 +1,8 @@
+<h4><%= @page.title %></h4>
+
+<p><%= textilize(@page.body) %></p>
+
+<% if is_administrator? %>
+  <p><%= link_to "edit", :action => "edit", :id => @page.id %><br>
+  <%= link_to "destroy", :action => "destroy", :id => @page.id, :confirm => 'Are you sure?' %></p>
+<% end %>

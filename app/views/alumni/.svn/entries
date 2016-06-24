@@ -1,0 +1,52 @@
+8
+
+dir
+13
+http://svn.auapo.org/auapo2/app/views/alumni
+http://svn.auapo.org/auapo2
+
+
+
+2008-02-21T11:29:50.945656Z
+13
+auapo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+321601bf-4b3a-0410-9e98-863aa7267c5d
+
+anniversary.rhtml
+file
+
+
+
+
+2008-09-28T23:21:21.000000Z
+f43600a6f396e061fdbd2913cf768b70
+2008-02-21T11:29:50.945656Z
+13
+auapo
+
+index.rhtml
+file
+
+
+
+
+2008-09-28T23:21:21.000000Z
+5754d36792c1f9e952c75753e8dc8df3
+2008-01-23T19:31:59.084722Z
+11
+auapo
+

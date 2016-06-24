@@ -1,0 +1,13 @@
+<h4>Fellowships</h4>
+<% if @fellowship_pages %><p id="panel">Pages: <%= pagination_links(@fellowship_pages) %></p><% end %>
+<% for fellowship in @fellowships%>
+<ul class="selected">
+	<li>
+		<span class="ticketController">
+			<%= image_tag("/images/icon-auto.gif") unless !fellowship.auto_needed? %> <%= image_tag("/images/icon-car.gif") unless !fellowship.car_needed? %>
+		</span>
+		<%= link_to fellowship.title, :action => "show", :id => fellowship %> (<%= pluralize(fellowship.length_in_hours, 'hour') %>  for <%= fellowship.category.title %>)<br>
+		<span><%= fellowship.start_time.strftime("%B %d, %Y at %I:%M %p" )%>  |  "<%= h(truncate(fellowship.description, 180)) %>"</span>
+	</li>
+</ul>
+<% end %>

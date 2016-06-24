@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/auapo2/!svn/ver/13/app/views/hours
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/13/app/views/hours/list.rhtml
+END
+print.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/app/views/hours/print.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/app/views/hours/show.rhtml
+END
+upcoming.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/6/app/views/hours/upcoming.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/app/views/hours/_form.rhtml
+END
+pledges.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/app/views/hours/pledges.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/app/views/hours/edit.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/auapo2/!svn/ver/1/app/views/hours/new.rhtml
+END

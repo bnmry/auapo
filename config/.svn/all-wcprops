@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/auapo2/!svn/ver/12/config
+END
+locomotive.yml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/auapo2/!svn/ver/12/config/locomotive.yml
+END
+lighttpd.conf
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/auapo2/!svn/ver/1/config/lighttpd.conf
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/auapo2/!svn/ver/1/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/auapo2/!svn/ver/1/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/auapo2/!svn/ver/12/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/auapo2/!svn/ver/12/config/environment.rb
+END
+deploy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/auapo2/!svn/ver/4/config/deploy.rb
+END

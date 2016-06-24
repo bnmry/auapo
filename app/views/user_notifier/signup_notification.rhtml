@@ -1,0 +1,16 @@
+Welcome, <%= @user.firstname %>!
+
+You have successfully created your account at AUAPO.org.  You'll soon be able to sign up for Eta Phi service projects, fundraisers and fellowships with ease.  <strong>Just click on the link below to activate your account, and write down your login name and password so you won't forget it.</strong>
+
+Your login credentials are:
+
+  login:    <%= @user.login %>
+  password: <%= @user.password %>
+
+<strong>Please click on the following link to confirm your registration:</strong>
+
+<a href="<%= @url%>">Click me!</a>
+
+LFS,
+
+The Eta Phi Website

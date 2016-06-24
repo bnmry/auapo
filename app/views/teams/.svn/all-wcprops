@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/auapo2/!svn/ver/1/app/views/teams
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/app/views/teams/list.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/app/views/teams/show.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/app/views/teams/_form.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/app/views/teams/edit.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/auapo2/!svn/ver/1/app/views/teams/new.rhtml
+END

@@ -1,0 +1,7 @@
+Thanks, <%= @user.firstname %>!
+
+You have successfully activated your account on AUAPO.org.  You may now log in with your username and password at any time.  Enjoy.
+
+LFS,
+
+The Eta Phi Website

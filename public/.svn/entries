@@ -1,0 +1,151 @@
+8
+
+dir
+13
+http://svn.auapo.org/auapo2/public
+http://svn.auapo.org/auapo2
+
+
+
+2008-02-09T21:25:06.251331Z
+12
+auapo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+321601bf-4b3a-0410-9e98-863aa7267c5d
+
+event
+dir
+
+robots.txt
+file
+
+
+
+
+2008-09-28T23:24:25.000000Z
+a9d8217ec04c304aba7926ae1f066973
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+engine_files
+dir
+
+javascripts
+dir
+
+favicon.ico
+file
+
+
+
+
+2008-09-28T23:24:25.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+dispatch.cgi
+file
+
+
+
+
+2008-09-28T23:24:25.000000Z
+5a5128856eb14ac7b3f94099cb504775
+2007-09-17T02:54:10.549913Z
+1
+auapo
+has-props
+
+dispatch.rb
+file
+
+
+
+
+2008-09-28T23:24:25.000000Z
+5a5128856eb14ac7b3f94099cb504775
+2007-09-17T02:54:10.549913Z
+1
+auapo
+has-props
+
+files
+dir
+
+images
+dir
+
+dispatch.fcgi
+file
+
+
+
+
+2008-09-28T23:24:25.000000Z
+71735c55c0d8453eb8f6340ebc4ca4c3
+2008-02-09T21:25:06.251331Z
+12
+auapo
+has-props
+
+500.html
+file
+
+
+
+
+2008-09-28T23:24:25.000000Z
+250fcd711396775d94477cad023af99a
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+404.html
+file
+
+
+
+
+2008-09-28T23:24:25.000000Z
+1248392955936f5d9142da8f66c5b46b
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+picture
+dir
+
+.htaccess
+file
+
+
+
+
+2008-09-28T23:24:25.000000Z
+4ac14a1f140eaf13c3d5eacc9fb1127a
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+stylesheets
+dir
+
+user
+dir
+

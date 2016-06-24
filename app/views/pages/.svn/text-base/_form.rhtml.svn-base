@@ -1,0 +1,16 @@
+<%= error_messages_for 'page' %>
+
+<!--[form:page]-->
+<p><label for="page_title">Title</label>
+<%= text_field 'page', 'title'  %></p>
+
+<p><label for="page_updated_by">Updated by</label>
+	<%= @users = User.find(:all, :conditions => ["status_id != 2"], :order => "lastname")
+		collection_select(:page, :updated_by, @users, :id, :lastname)%></p>
+
+<p><label for="page_body">Body</label>
+<%= text_area 'page', 'body'  %></p>
+
+<p><label></label><a target="_blank" href="http://hobix.com/textile/quick.html">Read this Textile reference to make this page fancier</a></p>
+<!--[eoform:page]-->
+

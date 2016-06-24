@@ -1,0 +1,27 @@
+<h1>Listing newsletters</h1>
+
+<table>
+  <tr>
+  <% for column in Newsletter.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for newsletter in @newsletters %>
+  <tr>
+  <% for column in Newsletter.content_columns %>
+    <td><%=h newsletter.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => newsletter %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => newsletter %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => newsletter }, :confirm => 'Are you sure?', :method => :post  %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @newsletter_pages.current.previous } if @newsletter_pages.current.previous %>
+<%= link_to 'Next page', { :page => @newsletter_pages.current.next } if @newsletter_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New newsletter', :action => 'new' %>

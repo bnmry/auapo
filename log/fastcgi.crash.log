@@ -1,0 +1,607 @@
+# Logfile created on Fri Jul 21 18:36:34 EDT 2006 by logger.rb/1.5.2.7
+[21/Jul/2006:18:36:34 :: 758] starting
+[21/Jul/2006:18:36:34 :: 759] starting
+[21/Jul/2006:23:33:59 :: 759] asked to terminate immediately
+[21/Jul/2006:23:33:59 :: 759] terminated by explicit exit
+[21/Jul/2006:23:33:59 :: 758] asked to terminate immediately
+[21/Jul/2006:23:33:59 :: 758] terminated by explicit exit
+[21/Jul/2006:23:34:17 :: 926] starting
+[21/Jul/2006:23:34:17 :: 927] starting
+[22/Jul/2006:00:29:11 :: 927] asked to terminate immediately
+[22/Jul/2006:00:29:11 :: 927] terminated by explicit exit
+[22/Jul/2006:00:29:11 :: 926] asked to terminate immediately
+[22/Jul/2006:00:29:11 :: 926] terminated by explicit exit
+[22/Jul/2006:10:06:55 :: 1196] starting
+[22/Jul/2006:10:06:55 :: 1197] starting
+[22/Jul/2006:10:09:05 :: 1197] asked to terminate immediately
+[22/Jul/2006:10:09:05 :: 1197] terminated by explicit exit
+[22/Jul/2006:10:09:05 :: 1196] asked to terminate immediately
+[22/Jul/2006:10:09:05 :: 1196] terminated by explicit exit
+[28/Jul/2006:07:42:49 :: 456] starting
+[28/Jul/2006:07:42:49 :: 457] starting
+[28/Jul/2006:08:34:46 :: 457] asked to terminate immediately
+[28/Jul/2006:08:34:46 :: 456] asked to terminate immediately
+[28/Jul/2006:08:34:46 :: 456] terminated by explicit exit
+[28/Jul/2006:08:34:46 :: 457] terminated by explicit exit
+[28/Jul/2006:08:34:57 :: 488] starting
+[28/Jul/2006:08:34:58 :: 487] starting
+[28/Jul/2006:12:49:55 :: 488] asked to terminate immediately
+[28/Jul/2006:12:49:55 :: 488] terminated by explicit exit
+[28/Jul/2006:12:49:55 :: 487] asked to terminate immediately
+[28/Jul/2006:12:49:55 :: 487] terminated by explicit exit
+[28/Jul/2006:14:18:52 :: 645] starting
+[28/Jul/2006:14:18:52 :: 646] starting
+[30/Jul/2006:10:30:14 :: 290] starting
+[30/Jul/2006:10:30:14 :: 291] starting
+[30/Jul/2006:13:06:43 :: 291] asked to terminate immediately
+[30/Jul/2006:13:06:43 :: 291] terminated by explicit exit
+[30/Jul/2006:13:06:43 :: 290] asked to terminate immediately
+[30/Jul/2006:13:06:43 :: 290] terminated by explicit exit
+[30/Jul/2006:13:06:55 :: 346] starting
+[30/Jul/2006:13:06:55 :: 345] starting
+[30/Jul/2006:17:56:49 :: 410] starting
+[30/Jul/2006:22:58:04 :: 410] asked to terminate immediately
+[30/Jul/2006:22:58:04 :: 410] terminated by explicit exit
+[30/Jul/2006:22:58:04 :: 345] asked to terminate immediately
+[30/Jul/2006:22:58:04 :: 345] terminated by explicit exit
+[31/Jul/2006:19:25:46 :: 332] starting
+[31/Jul/2006:19:25:46 :: 333] starting
+[31/Jul/2006:22:02:36 :: 333] asked to terminate immediately
+[31/Jul/2006:22:02:36 :: 333] terminated by explicit exit
+[31/Jul/2006:22:02:36 :: 332] asked to terminate immediately
+[31/Jul/2006:22:02:36 :: 332] terminated by explicit exit
+[01/Aug/2006:07:03:54 :: 305] starting
+[01/Aug/2006:07:03:54 :: 304] starting
+[01/Aug/2006:20:41:27 :: 385] starting
+[01/Aug/2006:20:41:27 :: 383] starting
+[01/Aug/2006:20:49:22 :: 385] asked to terminate immediately
+[01/Aug/2006:20:49:22 :: 385] terminated by explicit exit
+[01/Aug/2006:20:49:22 :: 383] asked to terminate immediately
+[01/Aug/2006:20:49:22 :: 383] terminated by explicit exit
+[01/Aug/2006:20:51:41 :: 443] starting
+[01/Aug/2006:20:51:41 :: 444] starting
+[06/Aug/2006:14:09:55 :: 304] starting
+[06/Aug/2006:14:09:55 :: 303] starting
+[06/Aug/2006:20:56:02 :: 304] asked to terminate immediately
+[06/Aug/2006:20:56:02 :: 304] terminated by explicit exit
+[06/Aug/2006:20:56:02 :: 303] asked to terminate immediately
+[06/Aug/2006:20:56:02 :: 303] terminated by explicit exit
+[08/Aug/2006:21:21:45 :: 326] starting
+[08/Aug/2006:21:21:45 :: 327] starting
+[10/Aug/2006:07:13:33 :: 327] asked to terminate immediately
+[10/Aug/2006:07:13:33 :: 327] terminated by explicit exit
+[10/Aug/2006:07:13:33 :: 326] asked to terminate immediately
+[10/Aug/2006:07:13:33 :: 326] terminated by explicit exit
+[10/Aug/2006:18:09:04 :: 573] starting
+[10/Aug/2006:18:09:04 :: 572] starting
+[11/Aug/2006:16:02:42 :: 309] starting
+[11/Aug/2006:16:02:43 :: 308] starting
+[11/Aug/2006:16:09:48 :: 309] asked to terminate immediately
+[11/Aug/2006:16:09:48 :: 309] terminated by explicit exit
+[11/Aug/2006:16:09:48 :: 308] asked to terminate immediately
+[11/Aug/2006:16:09:48 :: 308] terminated by explicit exit
+[11/Aug/2006:17:30:59 :: 421] starting
+[11/Aug/2006:17:31:08 :: 422] starting
+[11/Aug/2006:21:21:24 :: 421] asked to terminate immediately
+[11/Aug/2006:21:21:24 :: 421] terminated by explicit exit
+[11/Aug/2006:21:21:24 :: 422] asked to terminate immediately
+[11/Aug/2006:21:21:24 :: 422] terminated by explicit exit
+[11/Aug/2006:21:21:38 :: 612] starting
+[11/Aug/2006:21:21:38 :: 613] starting
+[11/Aug/2006:21:38:27 :: 613] asked to terminate immediately
+[11/Aug/2006:21:38:27 :: 613] terminated by explicit exit
+[11/Aug/2006:21:38:27 :: 612] asked to terminate immediately
+[11/Aug/2006:21:38:27 :: 612] terminated by explicit exit
+[11/Aug/2006:21:38:39 :: 661] starting
+[11/Aug/2006:21:38:39 :: 660] starting
+[11/Aug/2006:21:39:51 :: 661] asked to terminate immediately
+[11/Aug/2006:21:39:51 :: 661] terminated by explicit exit
+[11/Aug/2006:21:39:51 :: 660] asked to terminate immediately
+[11/Aug/2006:21:39:51 :: 660] terminated by explicit exit
+[11/Aug/2006:21:40:04 :: 678] starting
+[11/Aug/2006:21:40:04 :: 679] starting
+[11/Aug/2006:21:41:02 :: 679] asked to terminate immediately
+[11/Aug/2006:21:41:02 :: 679] terminated by explicit exit
+[11/Aug/2006:21:41:02 :: 678] asked to terminate immediately
+[11/Aug/2006:21:41:02 :: 678] terminated by explicit exit
+[11/Aug/2006:21:41:14 :: 696] starting
+[11/Aug/2006:21:41:14 :: 695] starting
+[11/Aug/2006:21:42:35 :: 696] asked to terminate immediately
+[11/Aug/2006:21:42:35 :: 696] terminated by explicit exit
+[11/Aug/2006:21:42:35 :: 695] asked to terminate immediately
+[11/Aug/2006:21:42:35 :: 695] terminated by explicit exit
+[11/Aug/2006:21:42:48 :: 710] starting
+[11/Aug/2006:21:42:48 :: 711] starting
+[11/Aug/2006:21:45:54 :: 711] asked to terminate immediately
+[11/Aug/2006:21:45:54 :: 711] terminated by explicit exit
+[11/Aug/2006:21:45:54 :: 710] asked to terminate immediately
+[11/Aug/2006:21:45:54 :: 710] terminated by explicit exit
+[11/Aug/2006:21:46:06 :: 727] starting
+[11/Aug/2006:21:46:06 :: 728] starting
+[11/Aug/2006:21:48:24 :: 728] asked to terminate immediately
+[11/Aug/2006:21:48:24 :: 728] terminated by explicit exit
+[11/Aug/2006:21:48:24 :: 727] asked to terminate immediately
+[11/Aug/2006:21:48:24 :: 727] terminated by explicit exit
+[11/Aug/2006:21:48:36 :: 742] starting
+[11/Aug/2006:21:48:36 :: 743] starting
+[11/Aug/2006:21:52:42 :: 743] asked to terminate immediately
+[11/Aug/2006:21:52:42 :: 743] terminated by explicit exit
+[11/Aug/2006:21:52:42 :: 742] asked to terminate immediately
+[11/Aug/2006:21:52:42 :: 742] terminated by explicit exit
+[11/Aug/2006:21:52:57 :: 762] starting
+[11/Aug/2006:21:52:57 :: 763] starting
+[11/Aug/2006:21:53:14 :: 763] asked to terminate immediately
+[11/Aug/2006:21:53:14 :: 763] terminated by explicit exit
+[11/Aug/2006:21:53:14 :: 762] asked to terminate immediately
+[11/Aug/2006:21:53:14 :: 762] terminated by explicit exit
+[11/Aug/2006:21:53:29 :: 808] starting
+[11/Aug/2006:21:53:29 :: 809] starting
+[11/Aug/2006:22:25:55 :: 809] asked to terminate immediately
+[11/Aug/2006:22:25:55 :: 809] terminated by explicit exit
+[11/Aug/2006:22:25:55 :: 808] asked to terminate immediately
+[11/Aug/2006:22:25:55 :: 808] terminated by explicit exit
+[11/Aug/2006:22:26:08 :: 858] starting
+[11/Aug/2006:22:26:08 :: 857] starting
+[11/Aug/2006:22:26:57 :: 858] asked to terminate immediately
+[11/Aug/2006:22:26:57 :: 858] terminated by explicit exit
+[11/Aug/2006:22:26:57 :: 857] asked to terminate immediately
+[11/Aug/2006:22:26:57 :: 857] terminated by explicit exit
+[11/Aug/2006:22:27:10 :: 873] starting
+[11/Aug/2006:22:27:10 :: 872] starting
+[11/Aug/2006:22:28:51 :: 873] asked to terminate immediately
+[11/Aug/2006:22:28:51 :: 873] terminated by explicit exit
+[11/Aug/2006:22:28:51 :: 872] asked to terminate immediately
+[11/Aug/2006:22:28:51 :: 872] terminated by explicit exit
+[11/Aug/2006:22:29:04 :: 888] starting
+[11/Aug/2006:22:29:04 :: 887] starting
+[11/Aug/2006:22:29:50 :: 888] asked to terminate immediately
+[11/Aug/2006:22:29:50 :: 888] terminated by explicit exit
+[11/Aug/2006:22:29:50 :: 887] asked to terminate immediately
+[11/Aug/2006:22:29:50 :: 887] terminated by explicit exit
+[11/Aug/2006:22:30:03 :: 905] starting
+[11/Aug/2006:22:30:03 :: 904] starting
+[11/Aug/2006:22:30:37 :: 905] asked to terminate immediately
+[11/Aug/2006:22:30:37 :: 905] terminated by explicit exit
+[11/Aug/2006:22:30:37 :: 904] asked to terminate immediately
+[11/Aug/2006:22:30:37 :: 904] terminated by explicit exit
+[11/Aug/2006:22:30:50 :: 919] starting
+[11/Aug/2006:22:30:50 :: 920] starting
+[11/Aug/2006:22:31:15 :: 920] asked to terminate immediately
+[11/Aug/2006:22:31:15 :: 920] terminated by explicit exit
+[11/Aug/2006:22:31:15 :: 919] asked to terminate immediately
+[11/Aug/2006:22:31:15 :: 919] terminated by explicit exit
+[11/Aug/2006:22:31:28 :: 935] starting
+[11/Aug/2006:22:31:28 :: 934] starting
+[11/Aug/2006:22:32:04 :: 935] asked to terminate immediately
+[11/Aug/2006:22:32:04 :: 935] terminated by explicit exit
+[11/Aug/2006:22:32:04 :: 934] asked to terminate immediately
+[11/Aug/2006:22:32:04 :: 934] terminated by explicit exit
+[11/Aug/2006:22:32:17 :: 949] starting
+[11/Aug/2006:22:32:17 :: 950] starting
+[11/Aug/2006:22:33:12 :: 950] asked to terminate immediately
+[11/Aug/2006:22:33:12 :: 950] terminated by explicit exit
+[11/Aug/2006:22:33:12 :: 949] asked to terminate immediately
+[11/Aug/2006:22:33:12 :: 949] terminated by explicit exit
+[11/Aug/2006:22:33:24 :: 965] starting
+[11/Aug/2006:22:33:25 :: 964] starting
+[11/Aug/2006:22:35:29 :: 965] asked to terminate immediately
+[11/Aug/2006:22:35:29 :: 965] terminated by explicit exit
+[11/Aug/2006:22:35:29 :: 964] asked to terminate immediately
+[11/Aug/2006:22:35:29 :: 964] terminated by explicit exit
+[11/Aug/2006:22:35:41 :: 980] starting
+[11/Aug/2006:22:35:41 :: 979] starting
+[11/Aug/2006:22:38:15 :: 980] asked to terminate immediately
+[11/Aug/2006:22:38:15 :: 980] terminated by explicit exit
+[11/Aug/2006:22:38:15 :: 979] asked to terminate immediately
+[11/Aug/2006:22:38:15 :: 979] terminated by explicit exit
+[11/Aug/2006:22:38:28 :: 995] starting
+[11/Aug/2006:22:38:28 :: 994] starting
+[11/Aug/2006:22:38:39 :: 995] asked to terminate immediately
+[11/Aug/2006:22:38:39 :: 995] terminated by explicit exit
+[11/Aug/2006:22:38:39 :: 994] asked to terminate immediately
+[11/Aug/2006:22:38:39 :: 994] terminated by explicit exit
+[11/Aug/2006:22:38:51 :: 1010] starting
+[11/Aug/2006:22:38:51 :: 1009] starting
+[11/Aug/2006:22:41:18 :: 1010] asked to terminate immediately
+[11/Aug/2006:22:41:18 :: 1010] terminated by explicit exit
+[11/Aug/2006:22:41:18 :: 1009] asked to terminate immediately
+[11/Aug/2006:22:41:18 :: 1009] terminated by explicit exit
+[11/Aug/2006:22:41:30 :: 1024] starting
+[11/Aug/2006:22:41:30 :: 1025] starting
+[11/Aug/2006:23:05:39 :: 1025] asked to terminate immediately
+[11/Aug/2006:23:05:39 :: 1025] terminated by explicit exit
+[11/Aug/2006:23:05:39 :: 1024] asked to terminate immediately
+[11/Aug/2006:23:05:39 :: 1024] terminated by explicit exit
+[11/Aug/2006:23:05:50 :: 1057] starting
+[11/Aug/2006:23:05:51 :: 1058] starting
+[11/Aug/2006:23:45:14 :: 1058] asked to terminate immediately
+[11/Aug/2006:23:45:14 :: 1058] terminated by explicit exit
+[11/Aug/2006:23:45:14 :: 1057] asked to terminate immediately
+[11/Aug/2006:23:45:14 :: 1057] terminated by explicit exit
+[12/Aug/2006:12:05:39 :: 1301] starting
+[12/Aug/2006:12:05:39 :: 1300] starting
+[12/Aug/2006:17:23:58 :: 1301] asked to terminate immediately
+[12/Aug/2006:17:23:58 :: 1301] terminated by explicit exit
+[12/Aug/2006:17:23:58 :: 1300] asked to terminate immediately
+[12/Aug/2006:17:23:58 :: 1300] terminated by explicit exit
+[12/Aug/2006:21:29:21 :: 391] starting
+[12/Aug/2006:21:29:21 :: 393] starting
+[13/Aug/2006:11:59:49 :: 393] asked to terminate immediately
+[13/Aug/2006:11:59:49 :: 393] terminated by explicit exit
+[13/Aug/2006:11:59:49 :: 391] asked to terminate immediately
+[13/Aug/2006:11:59:49 :: 391] terminated by explicit exit
+[13/Aug/2006:12:00:05 :: 1380] starting
+[13/Aug/2006:12:00:05 :: 1381] starting
+[13/Aug/2006:12:00:28 :: 1381] asked to terminate immediately
+[13/Aug/2006:12:00:28 :: 1381] terminated by explicit exit
+[13/Aug/2006:12:00:28 :: 1380] asked to terminate immediately
+[13/Aug/2006:12:00:28 :: 1380] terminated by explicit exit
+[15/Aug/2006:20:54:53 :: 312] starting
+[15/Aug/2006:20:54:53 :: 314] starting
+[15/Aug/2006:21:07:16 :: 314] asked to terminate immediately
+[15/Aug/2006:21:07:16 :: 314] terminated by explicit exit
+[15/Aug/2006:21:07:16 :: 312] asked to terminate immediately
+[15/Aug/2006:21:07:16 :: 312] terminated by explicit exit
+[15/Aug/2006:21:07:46 :: 354] starting
+[15/Aug/2006:22:37:27 :: 354] asked to reload ASAP
+[15/Aug/2006:22:37:27 :: 354] asked to reload ASAP
+[16/Aug/2006:07:03:39 :: 354] asked to terminate immediately
+[16/Aug/2006:07:03:39 :: 354] terminated by explicit exit
+[16/Aug/2006:07:03:39 :: 354] asked to terminate immediately
+[16/Aug/2006:17:00:21 :: 316] starting
+[16/Aug/2006:17:00:21 :: 318] starting
+[16/Aug/2006:17:03:32 :: 318] asked to terminate immediately
+[16/Aug/2006:17:03:32 :: 318] terminated by explicit exit
+[16/Aug/2006:17:03:32 :: 316] asked to terminate immediately
+[16/Aug/2006:17:03:32 :: 316] terminated by explicit exit
+[16/Aug/2006:17:23:45 :: 400] starting
+[17/Aug/2006:22:44:11 :: 400] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:24
+killed by this error
+[17/Aug/2006:22:44:30 :: 791] starting
+[18/Aug/2006:16:49:11 :: 791] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.2/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:24
+killed by this error
+[18/Aug/2006:18:54:24 :: 1129] starting
+[18/Aug/2006:18:57:11 :: 1146] starting
+[18/Aug/2006:18:57:11 :: 1145] starting
+[18/Aug/2006:18:57:57 :: 1129] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:24
+killed by this error
+[18/Aug/2006:18:58:08 :: 1153] starting
+[18/Aug/2006:19:34:34 :: 1161] starting
+[18/Aug/2006:20:59:53 :: 1161] asked to reload ASAP
+[18/Aug/2006:20:59:53 :: 1161] asked to reload ASAP
+[19/Aug/2006:11:48:31 :: 1271] starting
+[19/Aug/2006:11:49:18 :: 1272] starting
+[19/Aug/2006:11:50:46 :: 1273] starting
+[19/Aug/2006:23:09:22 :: 1272] asked to terminate immediately
+[19/Aug/2006:23:09:22 :: 1272] terminated by explicit exit
+[19/Aug/2006:23:09:22 :: 1273] asked to terminate immediately
+[19/Aug/2006:23:09:22 :: 1273] terminated by explicit exit
+[19/Aug/2006:23:09:37 :: 22536] starting
+[19/Aug/2006:23:09:37 :: 22535] starting
+[19/Aug/2006:23:33:25 :: 22536] asked to terminate immediately
+[19/Aug/2006:23:33:25 :: 22536] terminated by explicit exit
+[19/Aug/2006:23:33:25 :: 22535] asked to terminate immediately
+[19/Aug/2006:23:33:25 :: 22535] terminated by explicit exit
+[20/Aug/2006:08:45:18 :: 362] starting
+[20/Aug/2006:08:45:18 :: 363] starting
+[20/Aug/2006:11:10:12 :: 363] asked to terminate immediately
+[20/Aug/2006:11:10:12 :: 363] terminated by explicit exit
+[20/Aug/2006:11:10:12 :: 362] asked to terminate immediately
+[20/Aug/2006:11:10:12 :: 362] terminated by explicit exit
+[20/Aug/2006:16:57:11 :: 334] starting
+[20/Aug/2006:16:57:11 :: 336] starting
+[20/Aug/2006:17:17:43 :: 336] asked to terminate immediately
+[20/Aug/2006:17:17:43 :: 336] terminated by explicit exit
+[20/Aug/2006:17:17:43 :: 334] asked to terminate immediately
+[20/Aug/2006:17:17:43 :: 334] terminated by explicit exit
+[20/Aug/2006:17:17:58 :: 365] starting
+[20/Aug/2006:17:37:52 :: 428] starting
+[20/Aug/2006:17:37:52 :: 427] starting
+[20/Aug/2006:17:38:18 :: 431] starting
+[20/Aug/2006:17:38:24 :: 427] asked to terminate immediately
+[20/Aug/2006:17:38:24 :: 427] terminated by explicit exit
+[20/Aug/2006:17:38:41 :: 451] starting
+[20/Aug/2006:18:37:47 :: 541] starting
+[20/Aug/2006:18:37:47 :: 540] starting
+[20/Aug/2006:18:41:13 :: 541] asked to terminate immediately
+[20/Aug/2006:18:41:13 :: 541] terminated by explicit exit
+[20/Aug/2006:18:41:13 :: 540] asked to terminate immediately
+[20/Aug/2006:18:41:13 :: 540] terminated by explicit exit
+[20/Aug/2006:18:52:11 :: 578] starting
+[20/Aug/2006:21:28:25 :: 578] asked to reload ASAP
+[20/Aug/2006:21:28:40 :: 578] asked to terminate immediately
+[20/Aug/2006:21:28:40 :: 578] terminated by explicit exit
+[20/Aug/2006:21:28:40 :: 578] asked to terminate immediately
+[25/Aug/2006:11:11:10 :: 319] starting
+[25/Aug/2006:11:11:10 :: 318] starting
+[25/Aug/2006:11:12:56 :: 375] starting
+[26/Aug/2006:00:18:26 :: 375] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:24
+killed by this error
+[26/Aug/2006:00:18:40 :: 775] starting
+[27/Aug/2006:16:58:00 :: 775] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:24
+killed by this error
+[27/Aug/2006:16:58:44 :: 2325] starting
+[28/Aug/2006:08:22:40 :: 2325] asked to reload ASAP
+[28/Aug/2006:08:22:40 :: 2325] asked to reload ASAP
+[28/Aug/2006:08:23:04 :: 2325] asked to terminate immediately
+[28/Aug/2006:08:23:04 :: 2325] terminated by explicit exit
+[28/Aug/2006:08:23:04 :: 2325] asked to terminate immediately
+[02/Sep/2006:18:06:19 :: 277] starting
+[02/Sep/2006:18:06:19 :: 276] starting
+[02/Sep/2006:18:07:20 :: 276] asked to terminate immediately
+[02/Sep/2006:18:07:20 :: 276] terminated by explicit exit
+[02/Sep/2006:18:07:31 :: 327] starting
+[02/Sep/2006:23:55:02 :: 327] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:24
+killed by this error
+[02/Sep/2006:23:55:21 :: 522] starting
+[03/Sep/2006:00:44:29 :: 522] asked to reload ASAP
+[03/Sep/2006:00:44:29 :: 522] asked to reload ASAP
+[03/Sep/2006:00:44:56 :: 522] asked to terminate immediately
+[03/Sep/2006:00:44:56 :: 522] terminated by explicit exit
+[03/Sep/2006:00:44:57 :: 522] asked to terminate immediately
+[03/Sep/2006:08:43:04 :: 290] starting
+[03/Sep/2006:09:35:39 :: 290] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[03/Sep/2006:09:36:05 :: 380] starting
+[03/Sep/2006:11:30:49 :: 380] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[03/Sep/2006:11:31:05 :: 474] starting
+[03/Sep/2006:12:31:37 :: 474] asked to reload ASAP
+[03/Sep/2006:12:32:12 :: 474] asked to terminate immediately
+[03/Sep/2006:12:32:12 :: 474] frao handler working its magic!
+[03/Sep/2006:12:32:12 :: 474] asked to restart ASAP
+[03/Sep/2006:12:32:12 :: 474] asked to terminate immediately
+[03/Sep/2006:12:32:12 :: 474] frao handler working its magic!
+[03/Sep/2006:12:32:12 :: 474] asked to restart ASAP
+[03/Sep/2006:13:20:48 :: 214] starting
+[03/Sep/2006:13:22:31 :: 214] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[03/Sep/2006:13:22:43 :: 245] starting
+[03/Sep/2006:14:27:46 :: 245] asked to reload ASAP
+[03/Sep/2006:15:24:21 :: 373] starting
+[03/Sep/2006:15:27:24 :: 389] starting
+[04/Sep/2006:14:02:13 :: 776] starting
+[04/Sep/2006:17:27:34 :: 776] asked to terminate immediately
+[04/Sep/2006:17:27:34 :: 776] frao handler working its magic!
+[04/Sep/2006:17:27:34 :: 776] asked to restart ASAP
+[04/Sep/2006:17:27:34 :: 776] asked to terminate immediately
+[04/Sep/2006:17:27:34 :: 776] frao handler working its magic!
+[04/Sep/2006:17:27:34 :: 776] asked to restart ASAP
+[09/Sep/2006:19:29:32 :: 416] starting
+[09/Sep/2006:21:31:33 :: 416] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[09/Sep/2006:21:31:48 :: 527] starting
+[09/Sep/2006:21:32:30 :: 527] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[09/Sep/2006:21:32:45 :: 537] starting
+[09/Sep/2006:21:35:14 :: 537] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[09/Sep/2006:21:35:27 :: 547] starting
+[10/Sep/2006:02:01:56 :: 547] asked to reload ASAP
+[10/Sep/2006:02:01:56 :: 547] asked to reload ASAP
+[10/Sep/2006:10:15:56 :: 650] starting
+[10/Sep/2006:10:34:32 :: 765] starting
+[10/Sep/2006:10:34:32 :: 766] starting
+[10/Sep/2006:10:43:15 :: 765] asked to terminate immediately
+[10/Sep/2006:10:43:15 :: 765] frao handler working its magic!
+[10/Sep/2006:10:43:15 :: 765] asked to restart ASAP
+[10/Sep/2006:10:44:59 :: 805] starting
+[10/Sep/2006:11:18:18 :: 805] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[10/Sep/2006:11:18:33 :: 842] starting
+[10/Sep/2006:11:24:44 :: 842] asked to reload ASAP
+[10/Sep/2006:11:25:17 :: 842] asked to terminate immediately
+[10/Sep/2006:11:25:17 :: 842] frao handler working its magic!
+[10/Sep/2006:11:25:17 :: 842] asked to restart ASAP
+[10/Sep/2006:11:25:17 :: 842] asked to terminate immediately
+[10/Sep/2006:11:25:17 :: 842] frao handler working its magic!
+[10/Sep/2006:11:25:17 :: 842] asked to restart ASAP
+[12/Sep/2006:23:27:34 :: 319] starting
+[12/Sep/2006:23:53:47 :: 319] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[12/Sep/2006:23:54:01 :: 356] starting
+[12/Sep/2006:23:58:07 :: 356] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[12/Sep/2006:23:58:19 :: 367] starting
+[13/Sep/2006:00:27:30 :: 367] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[13/Sep/2006:00:27:43 :: 449] starting
+[13/Sep/2006:00:28:11 :: 449] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[13/Sep/2006:00:28:37 :: 459] starting
+[13/Sep/2006:00:29:18 :: 459] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[13/Sep/2006:00:29:31 :: 469] starting
+[13/Sep/2006:01:11:05 :: 469] asked to reload ASAP
+[13/Sep/2006:01:11:06 :: 469] asked to reload ASAP
+[13/Sep/2006:08:35:17 :: 469] asked to terminate immediately
+[13/Sep/2006:08:35:17 :: 469] frao handler working its magic!
+[13/Sep/2006:08:35:17 :: 469] asked to restart ASAP
+[13/Sep/2006:08:35:18 :: 469] asked to terminate immediately
+[13/Sep/2006:08:35:18 :: 469] frao handler working its magic!
+[13/Sep/2006:08:35:18 :: 469] asked to restart ASAP
+[19/Sep/2006:14:23:31 :: 325] starting
+[19/Sep/2006:14:49:31 :: 325] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[19/Sep/2006:14:49:45 :: 340] starting
+[19/Sep/2006:15:21:54 :: 340] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[19/Sep/2006:15:22:12 :: 353] starting
+[19/Sep/2006:15:22:54 :: 353] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[19/Sep/2006:15:23:15 :: 364] starting
+[19/Sep/2006:15:34:29 :: 364] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[19/Sep/2006:15:34:45 :: 374] starting
+[19/Sep/2006:17:07:32 :: 374] asked to reload ASAP
+[19/Sep/2006:20:56:48 :: 374] asked to terminate immediately
+[19/Sep/2006:20:56:48 :: 374] frao handler working its magic!
+[19/Sep/2006:20:56:48 :: 374] asked to restart ASAP
+[19/Sep/2006:20:56:48 :: 374] asked to terminate immediately
+[19/Sep/2006:20:56:48 :: 374] frao handler working its magic!
+[19/Sep/2006:20:56:48 :: 374] asked to restart ASAP
+[23/Sep/2006:17:55:45 :: 323] starting
+[23/Sep/2006:17:55:45 :: 322] starting
+[23/Sep/2006:17:56:52 :: 323] asked to terminate immediately
+[23/Sep/2006:17:56:52 :: 323] frao handler working its magic!
+[23/Sep/2006:17:56:52 :: 323] asked to restart ASAP
+[23/Sep/2006:17:56:52 :: 322] asked to terminate immediately
+[23/Sep/2006:17:56:52 :: 322] frao handler working its magic!
+[23/Sep/2006:17:56:52 :: 322] asked to restart ASAP
+[06/Nov/2006:11:55:59 :: 312] starting
+[06/Nov/2006:13:39:48 :: 399] starting
+[06/Nov/2006:13:45:02 :: 312] asked to terminate immediately
+[06/Nov/2006:13:45:02 :: 312] frao handler working its magic!
+[06/Nov/2006:13:45:02 :: 312] asked to restart ASAP
+[06/Nov/2006:13:47:04 :: 399] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[06/Nov/2006:13:47:17 :: 412] starting
+[06/Nov/2006:14:08:34 :: 412] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[06/Nov/2006:14:08:47 :: 427] starting
+[06/Nov/2006:14:26:49 :: 427] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[06/Nov/2006:14:27:57 :: 447] starting
+[06/Nov/2006:14:31:24 :: 447] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[06/Nov/2006:14:31:36 :: 458] starting
+[06/Nov/2006:14:46:49 :: 458] asked to reload ASAP
+[06/Nov/2006:16:25:29 :: 573] starting
+[06/Nov/2006:16:28:56 :: 573] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/auapo/public/dispatch.fcgi:34
+killed by this error
+[06/Nov/2006:16:29:12 :: 583] starting

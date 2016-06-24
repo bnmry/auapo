@@ -1,0 +1,49 @@
+<% if is_alumni? %>
+	<li><%= link_to "home", :controller => "account", :action => "index" %></li>
+	<li><a class="itemWithSubmenu" href="#">Tools</a>
+		<ul class="submenu">
+			<li><a href="http://www.box.net/public/u1yn0p3uk8">Files</a></li>
+			<li><a href="http://email.auapo.org">E-Mail</a></li>
+			<li><a href="http://calendar.auapo.org">Calendar</a></li>
+		</ul>
+	</li>
+	<li><%= link_to "pages", {:controller => "pages", :action => "index"}%></li>
+	<li><%= link_to "members", {:controller => "brothers", :action => "index"}, :class => "itemWithSubmenu"%>
+		<ul class="submenu">
+			<li><%= link_to "brothers", :controller => "brothers", :action => "index" %></li>
+			<li><%= link_to "faces", :controller => "brothers", :action => "gallery" %></li>
+			<li><%= link_to "pledges", :controller => "brothers", :action => "pledges" %></li>
+		</ul>
+	</li>
+	<li><%= link_to "service", {:controller => "projects", :action => "index"}, :class => "itemWithSubmenu"%>
+		<ul class="submenu">
+			<li><%= link_to "view all", :controller => "projects", :action => "list" %></li>
+			<li><%= link_to "create new", :controller => "projects", :action => "new" %></li>
+			<li><%= link_to "old events", :controller => "projects", :action => "old" %></li>
+		</ul>
+	</li>
+	<li><%= link_to "fellowships", {:controller => "fellowships", :action => "index"}, :class => "itemWithSubmenu" %>
+		<ul class="submenu">
+			<li><%= link_to "view all", :controller => "fellowships", :action => "list" %></li>
+			<li><%= link_to "create new", :controller => "fellowships", :action => "new" %></li>
+			<li><%= link_to "old fellowships", :controller => "fellowships", :action => "old" %></li>
+		</ul>
+	</li>
+	<li><%= link_to "fundraisers", {:controller => "fundraisers", :action => "index"}, :class => "itemWithSubmenu" %>
+		<ul class="submenu">
+			<li><%= link_to "view all", :controller => "fundraisers", :action => "list" %></li>
+			<li><%= link_to "create new", :controller => "fundraisers", :action => "new" %></li>
+			<li><%= link_to "old fundraisers", :controller => "fundraisers", :action => "old" %></li>
+		</ul>
+	</li>
+	<li><%= link_to "my events", {:controller => "hours", :action => "upcoming"}%>
+
+	</li>
+	<li><%= link_to "my account", {:controller => "account", :action => "index"}, :class => "itemWithSubmenu" %>
+		<ul class="submenu">
+			<li><%= link_to "edit my account", :controller => "account", :action => "edit" %></li>
+			<li><%= link_to "edit my picture", :controller => "account", :action => "picture" %></li>
+		</ul>
+	</li>
+	<li><%= link_to "log out", :controller => "account", :action => "logout" %>
+<% end %>

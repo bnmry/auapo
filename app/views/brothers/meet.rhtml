@@ -1,0 +1,10 @@
+<h4>Meet: <%= @brother.firstname %> <%= @brother.lastname %></h4>
+<% @user = @brother%>
+<img style="float:right; margin:10px" src="<%= url_for_file_column 'user', 'picture', 'medium' %>">
+
+<p><label>Pledgeclass:</label> <%= @brother.pledgeclass.name%></p>
+<p><label>Family:</label> <%= @brother.family.name%></p>
+<p><label>E-Mail:</label> <%= enkode_mail(@brother.email, @brother.email)%></p>
+<% if logged_in? %>
+  <p><label>Telephone:</label> <%= number_to_phone(@brother.telephone) %></p>
+<% end %>

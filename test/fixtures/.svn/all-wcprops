@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/auapo2/!svn/ver/11/test/fixtures
+END
+newsletters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/test/fixtures/newsletters.yml
+END
+categories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/auapo2/!svn/ver/1/test/fixtures/categories.yml
+END
+fundraisers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/test/fixtures/fundraisers.yml
+END
+positions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/test/fixtures/positions.yml
+END
+projects.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/test/fixtures/projects.yml
+END
+families.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/test/fixtures/families.yml
+END
+codes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/test/fixtures/codes.yml
+END
+fellowships.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/test/fixtures/fellowships.yml
+END
+pages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/test/fixtures/pages.yml
+END
+hours.yml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/test/fixtures/hours.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/test/fixtures/users.yml
+END
+activities.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/auapo2/!svn/ver/1/test/fixtures/activities.yml
+END
+events.yml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/auapo2/!svn/ver/1/test/fixtures/events.yml
+END
+goals.yml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/test/fixtures/goals.yml
+END
+messages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/11/test/fixtures/messages.yml
+END
+committees.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/auapo2/!svn/ver/1/test/fixtures/committees.yml
+END
+teams.yml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/test/fixtures/teams.yml
+END
+statuses.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/auapo2/!svn/ver/1/test/fixtures/statuses.yml
+END
+pledge_classes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/auapo2/!svn/ver/1/test/fixtures/pledge_classes.yml
+END
+pledgeclasses.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/auapo2/!svn/ver/1/test/fixtures/pledgeclasses.yml
+END

@@ -1,0 +1,19 @@
+<% if is_administrator? %>
+<h4>Pledge Hours</h4>
+<% for pledge in @pledges %>
+<% @user = pledge%>
+<ul id="interests">
+	<li>
+		<span class="ticketController" style="font-size:x-small">
+			<% hours = Hour.calculate(:sum, :hours, :conditions => ["user_id = ? and status = 3", @user.id]) %>
+			<%= hours %>
+		</span>	
+		<img class="icon" src="<%= url_for_file_column 'user', 'picture', 'thumb' %>">
+		<%= link_to "#{pledge.firstname} #{pledge.lastname}", :action => "list", :id => pledge.id %><br>
+		<span><%= pledge.pledgeclass.name %> | <%= pledge.family.name %></span>
+	</li>
+</ul>
+<% end %>
+<% else %>
+<% redirect_to :list %>
+<% end %>

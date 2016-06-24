@@ -1,0 +1,49 @@
+<%= error_messages_for @event_type %>
+
+<p>
+	<label for="title">Title:</label>
+	<%= text_field @event_type, 'title' %>
+	
+</p>
+
+<p>
+	<label for="title">Starts:</label>
+	<%= datetime_select @event_type, 'start_time' %>
+	
+</p>
+
+<p>
+	<label for="title">Ends:</label>
+	<%= datetime_select @event_type, 'end_time' %>
+	
+</p>
+
+<p>
+	<label for="description">Description:</label>
+	<%= text_area @event_type, 'description' %>
+</p>
+
+<p>
+	<label for="directions">Location:</label>
+	<%= text_area @event_type, 'location' %>
+</p>
+
+<p>
+	<label for="leader">Leader:</label>
+	<%= text_field @event_type, 'leader' %>
+</p>
+
+<p>
+	<label for="category">Category:</label>
+	<%= text_field @event_type, 'category' %>
+</p>
+
+<p>
+	<label for="car_needed">Need a car?</label>
+	<%= radio_button @event_type, 'car_needed', 1 %> Yes  <%= radio_button @event_type, 'car_needed', 0 %> No
+</p>
+
+<p>
+	<label for="auto_needed">Need an AUTO driver?</label>
+	<%= radio_button @event_type, 'auto_needed', 1 %> Yes  <%= radio_button @event_type, 'auto_needed', 0 %> No
+</p>

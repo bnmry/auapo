@@ -1,0 +1,19 @@
+<h4>Meet the Brothers of Eta Phi</h4>
+<p id="panel">Pages: <%= pagination_links(@brother_pages) %></p>
+<% for brother in @brothers %>
+<% @user = brother%>
+<ul id="interests">
+	<li>
+		<% if is_administrator? %>
+		<span class="ticketController" style="font-size:x-small">
+			<%= link_to "view hours", :controller => "hours", :action => "list", :id => brother.id %><br>
+			<%= link_to "edit account", :controller => "account", :action => "edit", :id => brother.id %>
+		</span>
+		<% end %>
+		
+		<%= link_to "#{brother.firstname} #{brother.lastname}", :action => "meet", :id => brother.id %>
+		<span><%= brother.pledgeclass.name %> | <%= brother.family.name %></span>
+	</li>
+</ul>
+<% end %>
+<p id="panel">Pages: <%= pagination_links(@brother_pages) %></p>

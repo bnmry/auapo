@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/app/views/pledgeclasses
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/auapo2/!svn/ver/1/app/views/pledgeclasses/list.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/auapo2/!svn/ver/1/app/views/pledgeclasses/show.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/auapo2/!svn/ver/1/app/views/pledgeclasses/_form.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/auapo2/!svn/ver/1/app/views/pledgeclasses/edit.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/auapo2/!svn/ver/1/app/views/pledgeclasses/new.rhtml
+END

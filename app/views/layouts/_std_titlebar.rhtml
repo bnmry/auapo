@@ -1,0 +1,9 @@
+<% if is_administrator? %>
+<% user = current_user %>
+<strong><span style="color:#FBD306">administrator</span>  :  <%= user.firstname %> <%= user.lastname %></strong> : <span><%= link_to "add a user", :controller => "account", :action => "signup" %>  | <%= link_to "edit pages", :controller => "pages", :action => "index" %></span>
+<% elsif logged_in? %>
+<% user = current_user %>
+<strong><%= user.firstname %> <%= user.lastname %></strong> : <span><%= link_to "your events", :controller => "hours", :action => "upcoming" %>  |  <%= link_to "your hours", :controller => "hours", :action => "list" %>  |  <%= link_to "find projects", :controller => "projects", :action => "index" %>  |  <%= link_to "find fellowships", :controller => "fellowships", :action => "index" %>  |  <%= link_to "find fundraisers", :controller => "fundraisers", :action => "index" %></span>
+<% else %>
+<strong>home</strong> : <span>the national co-ed service fraternity at american university in washington, d.c. </span>
+<% end %>

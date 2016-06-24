@@ -1,0 +1,13 @@
+<%= error_messages_for 'goal' %>
+
+<!--[form:goal]-->
+<p><label for="goal_title">Title</label><br/>
+<%= text_field 'goal', 'title'  %></p>
+
+<p><label for="goal_number">Number</label><br/>
+<%= text_field 'goal', 'number'  %></p>
+
+<p><label for="goal_units">Units</label><br/>
+<%= text_field 'goal', 'units'  %></p>
+<!--[eoform:goal]-->
+

@@ -1,0 +1,10 @@
+<%= error_messages_for 'picture' %>
+
+<!--[form:picture]-->
+<p><label for="picture_created_on">Created on</label><br/>
+<%= datetime_select 'picture', 'created_on'  %></p>
+
+<p><label for="picture_file">File</label><br/>
+<%= file_column_field( 'picture', 'file' ) %></p>
+<!--[eoform:picture]-->
+

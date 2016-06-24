@@ -1,0 +1,52 @@
+8
+
+dir
+13
+http://svn.auapo.org/auapo2/vendor/plugins/calendar_helper/test
+http://svn.auapo.org/auapo2
+
+
+
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+321601bf-4b3a-0410-9e98-863aa7267c5d
+
+stylesheet_tester.html
+file
+
+
+
+
+2008-09-28T23:21:33.000000Z
+9ee10d11fb158f9ea1be4f7fdbc573b3
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+test_calendar_helper.rb
+file
+
+
+
+
+2008-09-28T23:21:33.000000Z
+5864d2e9e9f6f6481c1bae4e873aaafa
+2007-09-17T02:54:10.549913Z
+1
+auapo
+

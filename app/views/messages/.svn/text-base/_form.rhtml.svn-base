@@ -1,0 +1,16 @@
+<%= error_messages_for 'message' %>
+
+<!--[form:message]-->
+<p><label for="message_created_at">Created at</label><br/>
+<%= datetime_select 'message', 'created_at'  %></p>
+
+<p><label for="message_created_by">Created by</label><br/>
+<%= text_field 'message', 'created_by'  %></p>
+
+<p><label for="message_title">Title</label><br/>
+<%= text_field 'message', 'title'  %></p>
+
+<p><label for="message_body">Body</label><br/>
+<%= text_area 'message', 'body'  %></p>
+<!--[eoform:message]-->
+

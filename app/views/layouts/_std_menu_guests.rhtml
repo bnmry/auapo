@@ -1,0 +1,13 @@
+<% if !logged_in?%>
+<li><%= link_to "home", :controller => "welcome", :action => "index" %></li>
+<li><%= link_to "about", {:controller => "pages", :action => "show", :id => 3}, :class => "itemWithSubmenu"%>
+  <ul class="submenu">
+    <li><%= link_to "eta phi", :controller => "pages", :action => "show", :id => 3 %></li>
+    <li><%= link_to "alpha phi omega", :controller => "pages", :action => "show", :id => 4 %></li>
+    <li><%= link_to "american university", :controller => "pages", :action => "show", :id => 5 %></li>
+    <li><%= link_to "rushing", :controller => "pages", :action => "show", :id => 2 %></li>
+  </ul>
+<li><%= link_to "brothers", :controller => "brothers", :action => "index" %></li>
+<li><%= link_to "alumni", :controller => "alumni", :action => "index" %></li>
+<li><%= link_to "sign in", :controller => "account", :action => "login" %></li>
+<% end %>

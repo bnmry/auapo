@@ -1,0 +1,15 @@
+<h4>Fundraisers</h4>
+<% if @fundraiser_pages %><p id="panel">Pages: <%= pagination_links(@fundraiser_pages) %></p><% end %>
+
+<% for fundraiser in @fundraisers%>
+
+<ul class="selected">
+	<li>
+		<span class="ticketController">
+			<%= image_tag("/images/icon-auto.gif") unless !fundraiser.auto_needed? %> <%= image_tag("/images/icon-car.gif") unless !fundraiser.car_needed? %>
+		</span>
+		<%= link_to fundraiser.title, :action => "show", :id => fundraiser %> (<%= pluralize(fundraiser.length_in_hours, 'hour') %>)<br>
+		<span><%= fundraiser.start_time.strftime("%B %d, %Y at %I:%M %p" )%>  |  "<%= h(truncate(fundraiser.description, 180)) %>"</span>
+	</li>
+</ul>
+<% end %>

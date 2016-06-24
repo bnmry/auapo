@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/app/views/user_notifier
+END
+signup_notification.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/auapo2/!svn/ver/1/app/views/user_notifier/signup_notification.rhtml
+END
+activation.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/auapo2/!svn/ver/1/app/views/user_notifier/activation.rhtml
+END
+forgot_password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/auapo2/!svn/ver/1/app/views/user_notifier/forgot_password.rhtml
+END
+reset_password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/auapo2/!svn/ver/1/app/views/user_notifier/reset_password.rhtml
+END

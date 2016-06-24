@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/auapo2/!svn/ver/11/test/functional
+END
+statuses_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/auapo2/!svn/ver/1/test/functional/statuses_controller_test.rb
+END
+pledgeclasses_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/auapo2/!svn/ver/1/test/functional/pledgeclasses_controller_test.rb
+END
+newsletters_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/auapo2/!svn/ver/1/test/functional/newsletters_controller_test.rb
+END
+alumni_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/auapo2/!svn/ver/11/test/functional/alumni_controller_test.rb
+END
+categories_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/auapo2/!svn/ver/1/test/functional/categories_controller_test.rb
+END
+fundraisers_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/auapo2/!svn/ver/1/test/functional/fundraisers_controller_test.rb
+END
+positions_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/auapo2/!svn/ver/1/test/functional/positions_controller_test.rb
+END
+families_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/auapo2/!svn/ver/1/test/functional/families_controller_test.rb
+END
+projects_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/auapo2/!svn/ver/1/test/functional/projects_controller_test.rb
+END
+account_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/auapo2/!svn/ver/1/test/functional/account_controller_test.rb
+END
+fellowships_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/auapo2/!svn/ver/1/test/functional/fellowships_controller_test.rb
+END
+pages_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/auapo2/!svn/ver/1/test/functional/pages_controller_test.rb
+END
+hours_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/auapo2/!svn/ver/1/test/functional/hours_controller_test.rb
+END
+activities_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/auapo2/!svn/ver/1/test/functional/activities_controller_test.rb
+END
+messages_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/auapo2/!svn/ver/11/test/functional/messages_controller_test.rb
+END
+committees_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/auapo2/!svn/ver/1/test/functional/committees_controller_test.rb
+END
+teams_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/auapo2/!svn/ver/1/test/functional/teams_controller_test.rb
+END

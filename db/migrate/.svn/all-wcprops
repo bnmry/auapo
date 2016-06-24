@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/auapo2/!svn/ver/1/db/migrate
+END
+003_create_codes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/db/migrate/003_create_codes.rb
+END
+001_create_events.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/auapo2/!svn/ver/1/db/migrate/001_create_events.rb
+END
+004_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/db/migrate/004_create_users.rb
+END
+002_create_goals.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/db/migrate/002_create_goals.rb
+END

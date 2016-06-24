@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/auapo2/!svn/ver/11/app/helpers
+END
+pledgeclasses_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/auapo2/!svn/ver/1/app/helpers/pledgeclasses_helper.rb
+END
+newsletters_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/auapo2/!svn/ver/1/app/helpers/newsletters_helper.rb
+END
+alumni_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/11/app/helpers/alumni_helper.rb
+END
+categories_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/auapo2/!svn/ver/1/app/helpers/categories_helper.rb
+END
+fundraisers_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/auapo2/!svn/ver/1/app/helpers/fundraisers_helper.rb
+END
+positions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/auapo2/!svn/ver/1/app/helpers/positions_helper.rb
+END
+reminders_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/auapo2/!svn/ver/1/app/helpers/reminders_helper.rb
+END
+brothers_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/app/helpers/brothers_helper.rb
+END
+projects_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/app/helpers/projects_helper.rb
+END
+families_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/app/helpers/families_helper.rb
+END
+welcome_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/app/helpers/welcome_helper.rb
+END
+account_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/app/helpers/account_helper.rb
+END
+pictures_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/app/helpers/pictures_helper.rb
+END
+fellowships_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/auapo2/!svn/ver/1/app/helpers/fellowships_helper.rb
+END
+pages_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/app/helpers/pages_helper.rb
+END
+hours_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/app/helpers/hours_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/auapo2/!svn/ver/1/app/helpers/application_helper.rb
+END
+activities_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/auapo2/!svn/ver/1/app/helpers/activities_helper.rb
+END
+goals_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/app/helpers/goals_helper.rb
+END
+messages_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/auapo2/!svn/ver/11/app/helpers/messages_helper.rb
+END
+committees_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/auapo2/!svn/ver/1/app/helpers/committees_helper.rb
+END
+teams_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/1/app/helpers/teams_helper.rb
+END
+statuses_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/app/helpers/statuses_helper.rb
+END

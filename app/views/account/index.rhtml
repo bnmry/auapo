@@ -1,0 +1,51 @@
+<div id="hourHeader">
+	<center>
+	<table cellspacing="0" border="0">
+		<tr>
+			<td align="center" style="font-size:150%; padding-right:20px"><%= @project_hours %></td>
+			<td align="center" style="font-size:150%; padding-right:20px"><%= @fellowship_events %></td>
+			<td align="center" style="font-size:150%; padding-right:20px"><%= @fundraising_hours %></td>
+		</tr>
+		<tr>
+			<td align="center" style="font-size:60%; padding-right:20px; color:#666">hours of service</td>
+			<td align="center" style="font-size:60%; padding-right:20px; color:#666">fellowships</td>
+			<td align="center" style="font-size:60%; padding-right:20px; color:#666">hours of fundraising</td>
+		</tr>
+	</table>
+	</center>
+</div>
+
+<p id="myauapo">hi, <strong><%= @fullname %></strong>!<br/>
+      <span>view your <%= link_to "profile", :controller => "brothers", :action => "meet", :id => current_user.id %>,
+      edit your <%= link_to "account", :action => "edit" %>.</p>
+
+<ul class="tabbedMenu">
+	<li class="selected"><%= link_to "my home", :action => "index" %></li>
+	<li><%= link_to "my upcoming events", :action => "upcoming", :controller => "hours" %></li>
+	<li><%= link_to "my completed events", :controller => "hours", :action => "index" %></li>
+</ul>
+
+<p>Welcome to the Eta Phi website.  There is a lot you can do here as a brother of Eta Phi.  You can sign up for service, fundraisers, and fellowships, as well as track your hours, contact other brothers and create events of your own.  Get started by clicking around and exploring the possibilities.</p>
+<table class="stats" cellspacing="10" id="dropdown1">
+	<tr>
+		<td>
+			<span class="title"><strong><%= link_to "look for service projects", :controller => "projects", :action => "index" %></strong></span>
+		</td>
+		<td>
+			<span class="title"><strong><%= link_to "look for fellowships", :controller => "fellowships", :action => "index" %></strong></span>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<span class="title"><strong><%= link_to "look for fundraisers", :controller => "fundraisers", :action => "index" %></strong>
+		</td>
+		<td>
+			<span class="title"><strong><%= link_to "see your report", :controller => "hours", :action => "index" %></strong></span>
+		</td>
+	</tr>
+</table>
+
+<div id="dropdown2" style="display:none">
+	<p>This is kind of cool</p>
+</div>
+

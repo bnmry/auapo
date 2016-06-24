@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/auapo2/!svn/ver/12/app/controllers
+END
+statuses_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/auapo2/!svn/ver/1/app/controllers/statuses_controller.rb
+END
+pledgeclasses_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/auapo2/!svn/ver/1/app/controllers/pledgeclasses_controller.rb
+END
+newsletters_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/auapo2/!svn/ver/1/app/controllers/newsletters_controller.rb
+END
+alumni_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/auapo2/!svn/ver/12/app/controllers/alumni_controller.rb
+END
+categories_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/auapo2/!svn/ver/1/app/controllers/categories_controller.rb
+END
+fundraisers_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/auapo2/!svn/ver/1/app/controllers/fundraisers_controller.rb
+END
+positions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/auapo2/!svn/ver/1/app/controllers/positions_controller.rb
+END
+reminders_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/auapo2/!svn/ver/1/app/controllers/reminders_controller.rb
+END
+brothers_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/auapo2/!svn/ver/1/app/controllers/brothers_controller.rb
+END
+projects_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/auapo2/!svn/ver/7/app/controllers/projects_controller.rb
+END
+families_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/auapo2/!svn/ver/1/app/controllers/families_controller.rb
+END
+welcome_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/auapo2/!svn/ver/1/app/controllers/welcome_controller.rb
+END
+account_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/auapo2/!svn/ver/2/app/controllers/account_controller.rb
+END
+pictures_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/auapo2/!svn/ver/1/app/controllers/pictures_controller.rb
+END
+fellowships_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/auapo2/!svn/ver/1/app/controllers/fellowships_controller.rb
+END
+pages_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/auapo2/!svn/ver/1/app/controllers/pages_controller.rb
+END
+hours_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/auapo2/!svn/ver/1/app/controllers/hours_controller.rb
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/auapo2/!svn/ver/12/app/controllers/application.rb
+END
+activities_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/auapo2/!svn/ver/1/app/controllers/activities_controller.rb
+END
+goals_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/auapo2/!svn/ver/1/app/controllers/goals_controller.rb
+END
+messages_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/auapo2/!svn/ver/11/app/controllers/messages_controller.rb
+END
+committees_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/auapo2/!svn/ver/1/app/controllers/committees_controller.rb
+END
+teams_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/auapo2/!svn/ver/1/app/controllers/teams_controller.rb
+END

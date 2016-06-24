@@ -1,0 +1,9 @@
+<h4>Set a picture</h4>
+<p>Upload a picture of yourself to add some color and personality to events.  This picture should be a close-up of your face and will be displayed next to your name on event listings and top 10 lists.  Also, there will soon be a fraternity composite for the public to see.  So, make sure your picture is good and that we can see your face!  <strong>It's best if it's a square picture with equal height and width.</strong></p>
+
+<%= image_tag url_for_file_column 'user', 'picture', 'medium' if @user.picture %><br>
+
+<%= form_tag({:action => 'do_edit_picture'}, :multipart => true) %>
+	<%= file_column_field( 'user', 'picture' ) %><br>
+	<%= submit_tag "Upload" %>
+<%= end_form_tag%>

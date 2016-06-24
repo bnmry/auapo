@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/auapo2/!svn/ver/1/app/views/pictures
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/app/views/pictures/list.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/app/views/pictures/show.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/app/views/pictures/_form.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/app/views/pictures/edit.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/auapo2/!svn/ver/1/app/views/pictures/new.rhtml
+END

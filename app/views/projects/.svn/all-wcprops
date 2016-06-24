@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/auapo2/!svn/ver/6/app/views/projects
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/6/app/views/projects/list.rhtml
+END
+log_hour.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/auapo2/!svn/ver/1/app/views/projects/log_hour.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/app/views/projects/show.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/auapo2/!svn/ver/1/app/views/projects/_form.rhtml
+END
+rss.rxml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/auapo2/!svn/ver/6/app/views/projects/rss.rxml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/auapo2/!svn/ver/1/app/views/projects/edit.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/auapo2/!svn/ver/1/app/views/projects/new.rhtml
+END

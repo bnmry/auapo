@@ -1,0 +1,27 @@
+<% if is_brother?%>
+<% @user_hours = Hour.calculate(:sum, :hours, :conditions => ["user_id = ? and status = 3 and activity_id = 1", current_user.id])
+   @goal_chapter = Goal.find('2') #Calls chapter goal for hours
+   @chapter_hours = Hour.calculate(:sum, :hours, :conditions => ["status = 3 and activity_id = 1"]) #Calls hours completed by the chapter
+   if !@chapter_hours.nil?
+     @percentage_side = @chapter_hours/@goal_chapter.number * 100
+ else
+   @percentage_side == 0
+ end
+   @pending_hours = Hour.calculate(:sum, :hours, :conditions => ["status = 1 and user_id = ? and activity_id = 1", current_user.id])
+   if @pending_hours.nil? 
+      @pending_hours == 0 
+     end
+%>
+<li>
+	
+	<h3>Your Hours</h3>
+	<p>
+		You have completed <strong><%= @user_hours %></strong> hours of service.  The chapter has completed <strong><%= @chapter_hours %></strong> hours, which is <strong><%= number_to_percentage(@percentage_side, :precision => 0)%></strong> of our goal for the semester.
+	</p>
+	
+	<h3>Your Events</h3>
+	<p>
+		You are signed up for <%= @pending_hours %> hours of service.  <%= link_to "Check them out", :controller => "hours", :action => "upcoming" %>.
+	</p>
+</li>
+<% end %>

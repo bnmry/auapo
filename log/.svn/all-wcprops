@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/auapo2/!svn/ver/13/log
+END
+fastcgi.crash.log
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/auapo2/!svn/ver/1/log/fastcgi.crash.log
+END
+lighttpd.access.log
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/auapo2/!svn/ver/1/log/lighttpd.access.log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/auapo2/!svn/ver/1/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/auapo2/!svn/ver/11/log/development.log
+END
+mongrel.log
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/auapo2/!svn/ver/13/log/mongrel.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/auapo2/!svn/ver/13/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/auapo2/!svn/ver/1/log/server.log
+END
+lighttpd.error.log
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/auapo2/!svn/ver/1/log/lighttpd.error.log
+END
+locomotive.pid
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/auapo2/!svn/ver/12/log/locomotive.pid
+END

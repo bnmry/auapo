@@ -1,0 +1,5 @@
+<h2>Service Project Listing</h2>
+<% event_type = 'project' %>
+<% for event_type in @projects %>
+<%= render :partial => 'layouts/listing_events' %>
+<% end %>

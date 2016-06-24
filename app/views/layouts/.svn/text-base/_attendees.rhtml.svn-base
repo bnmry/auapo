@@ -1,0 +1,62 @@
+<% @user = User.find_by_id(@attendees.user_id) %>
+<% @ticket = @attendees.id %>
+<li id="#{@ticket}">
+	<span class="ticketController">
+	<% if can_edit_event?(@attendees.event.id) %>
+		<% if @attendees.event.start_time > Time.now %>
+			<% if @attendees.status == 1 %>
+				<%= link_to_remote("withdraw", :update => "#{@ticket}", :url => {
+					:action => :withdraw, 
+					:id => @attendees.id,
+					:complete => "new Effect.Highlight(document.getElementById('#{@ticket}'))",
+					:confirm => 'Are you sure?' }, 
+					:method => :post  ) %>
+			<% elsif @attendees.status == 2 %>
+				<%= link_to_remote("sign back up", :update => "#{@ticket}", :url => {
+					:action => :recommit, 
+					:id => @attendees.id,
+					:complete => "new Effect.Highlight(document.getElementById('#{@ticket}'))",
+					:confirm => 'Are you sure?' }, 
+					:method => :post  ) %>
+			<% end %>
+			
+		<% end %>
+	<% end %>
+	<% if can_edit_event?(@attendees.event.id) %>
+		<% if @attendees.event.start_time < Time.now %>
+			<% if @attendees.status < 3%>
+				<%= link_to_remote("Complete", :update => "#{@ticket}", :url => {
+					:action => :completed_event, 
+					:id => @attendees.id,
+					:complete => "new Effect.Highlight(document.getElementById('#{@ticket}'))"}, 
+					:method => :post  ) %><br>
+					<%= link_to_remote("Withdraw", :update => "#{@ticket}", :url => {
+						:action => :withdraw, 
+						:id => @attendees.id,
+						:complete => "new Effect.Highlight(document.getElementById('#{@ticket}'))",
+						:confirm => 'Are you sure?' }, 
+						:method => :post  ) %>
+			<% elsif @attendees.status == 3 %>
+			    <% @hour = @attendees %>
+				<%= in_place_editor_field :hour, :hours %>
+			<% end %>
+		<% end %>
+	
+	<% end %>
+	</span>
+	
+	<img class="icon" src="<%= url_for_file_column 'user', 'picture', 'thumb' %>">
+	
+	<%= link_to "#{@attendees.user.firstname} #{@attendees.user.lastname}", :controller => "brothers", :action => "meet", :id => @attendees.user.id %>
+		<% if @attendees.status == 1 %>
+			<span style="color:#036A07" id="<%= @ticket %>"></span>
+		<% end %>
+		<% if @attendees.status == 2 %>
+			<span style="color:#920F1F" id="<%= @ticket %>">(no longer attending)</span>
+		<% end %>
+		<% if @attendees.status == 3 %>
+			<span style="color:#036A07" id="<%= @ticket %>">(has completed the event)</span>
+		<% end %>
+		<br />
+	     <span><%= number_to_phone(@attendees.user.telephone)%> | <%= @attendees.user.email %>  |  (signed up <%= distance_of_time_in_words(Time.now, @attendees.created_on)%> ago)</span>
+</li>

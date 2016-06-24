@@ -1,0 +1,32 @@
+<!--[form:fundraiser]-->
+<p><label for="fundraiser_created_on">Created on</label><br/>
+<%= date_select 'fundraiser', 'created_on'  %></p>
+
+<p><label for="fundraiser_updated_on">Updated on</label><br/>
+<%= date_select 'fundraiser', 'updated_on'  %></p>
+
+<p><label for="fundraiser_category">Category</label><br/>
+<%= text_field 'fundraiser', 'category'  %></p>
+
+<p><label for="fundraiser_leader">Leader</label><br/>
+<%= text_field 'fundraiser', 'leader'  %></p>
+
+<p><label for="fundraiser_hours">Hours</label><br/>
+<%= text_field 'fundraiser', 'hours'  %></p>
+
+<p><label for="fundraiser_title">Title</label><br/>
+<%= text_field 'fundraiser', 'title'  %></p>
+
+<p><label for="fundraiser_description">Description</label><br/>
+<%= text_area 'fundraiser', 'description'  %></p>
+
+<p><label for="fundraiser_directions">Directions</label><br/>
+<%= text_area 'fundraiser', 'directions'  %></p>
+
+<p><label for="fundraiser_car_needed">Car needed</label><br/>
+<%= text_field 'fundraiser', 'car_needed'  %></p>
+
+<p><label for="fundraiser_auto_needed">Auto needed</label><br/>
+<%= text_field 'fundraiser', 'auto_needed'  %></p>
+<!--[eoform:fundraiser]-->
+

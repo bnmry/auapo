@@ -1,0 +1,106 @@
+8
+
+dir
+13
+http://svn.auapo.org/auapo2/vendor/plugins/file_column/test
+http://svn.auapo.org/auapo2
+
+
+
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+321601bf-4b3a-0410-9e98-863aa7267c5d
+
+connection.rb
+file
+
+
+
+
+2008-09-28T23:21:35.000000Z
+fa1e0aedb473acd3f9782029d7efafeb
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+abstract_unit.rb
+file
+
+
+
+
+2008-09-28T23:21:35.000000Z
+bf19d87853d41f5b7bd1ad996241b619
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+magick_view_only_test.rb
+file
+
+
+
+
+2008-09-28T23:21:35.000000Z
+c7a0a388e86b35a9b78cbe92a0c9b731
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+fixtures
+dir
+
+file_column_helper_test.rb
+file
+
+
+
+
+2008-09-28T23:21:35.000000Z
+b078a4b9488de715593820cd08717db4
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+magick_test.rb
+file
+
+
+
+
+2008-09-28T23:21:35.000000Z
+30a03f830a8ecb180b38d7bcf17d6619
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+file_column_test.rb
+file
+
+
+
+
+2008-09-28T23:21:35.000000Z
+aee1959a718bc35c130d823bf1f65c72
+2007-09-17T02:54:10.549913Z
+1
+auapo
+
+public
+dir
+

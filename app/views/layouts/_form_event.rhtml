@@ -1,0 +1,74 @@
+<%= error_messages_for :event %>
+
+<% if is_administrator? %>
+<p>
+	<label for="user_id">Leader:</label>
+	<%= @leaders = User.find(:all, :conditions => ["status_id != 2"], :order => "lastname")
+		collection_select(:event, :user_id, @leaders, :id, :lastname)%>
+</p>
+<% end %>
+<p>
+	<label for="title">Title:</label>
+	<%= text_field 'event', 'title' %>
+	
+</p>
+
+<p>
+	<label for="title">Starts:</label>
+	<%= datetime_select 'event', 'start_time' %>
+	
+</p>
+
+<p>
+	<label for="title">Ends:</label>
+	<%= datetime_select 'event', 'end_time' %>
+	
+</p>
+
+<p>
+	<label for="description">Description:</label>
+	<%= text_area 'event', 'description' %>
+</p>
+
+<p>
+	<label for="directions">Location:</label>
+	<%= text_area 'event', 'location' %>
+</p>
+
+<p>
+	<label for="category">Hours:</label>
+	<%= text_field 'event', 'length_in_hours' %>
+</p>
+
+<p>
+	<label for="category">Attendee limit:</label>
+	<%= text_field 'event', 'attendee_limit' %>
+</p>
+
+<p>
+	<label for="category">Category:</label>
+	<%= @categories = Category.find(:all, :order => "title")
+	collection_select(:event, :category_id, @categories, :id, :title) %>
+</p>
+
+<p>
+	<label for="Code">Showup Code:</label>
+	<%= @codes = Code.find(:all, :order => "id")
+	collection_select(:code, :code_id, @codes, :id, :title) %>
+</p>
+
+<p>
+	<label for="car_needed">Need a car?</label>
+	<%= radio_button 'event', 'car_needed', 1 %> Yes  <%= radio_button 'event', 'car_needed', 0 %> No
+</p>
+
+<p>
+	<label for="auto_needed">Need an AUTO driver?</label>
+	<%= radio_button 'event', 'auto_needed', 1 %> Yes  <%= radio_button 'event', 'auto_needed', 0 %> No
+</p>
+
+<p>
+	<label for="auto_needed">Close this event?</label>
+	<%= radio_button 'event', 'is_closed', 1 %> Yes  <%= radio_button 'event', 'is_closed', 0 %> No
+</p>
+<%= hidden_field 'event', 'user_id', :value => "1"%>

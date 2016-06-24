@@ -1,0 +1,10 @@
+<% form_tag(:action => "create", :id => @event) do  %>
+<fieldset>
+	<legend>Create a Fundraiser</legend>
+	<p class="summary">All fields are required</p>
+	<% @event_type = 'fundraiser' %>
+  	<%= render :partial => '/layouts/form_event' %>
+	<%= hidden_field 'event', 'activity_id', :value => "3"%>
+  	<%= submit_tag "Create" %>
+</fieldset>
+<% end %>

@@ -1,0 +1,16 @@
+<% form_tag do -%>
+	<fieldset>
+		<legend>Log in to Eta Phi</legend>
+		<p class="summary">Brothers of the Eta Phi Chapter of Alpha Phi Omega can sign up for service projects, fellowships, fundraisers and other events along with tracking their hours and requirements.  It is required for all brothers to have accounts.  If you are an alumnus of Eta Phi, or otherwise connected to our chapter, please contact our <%= enkode_mail('membership@auapo.org', "Membership Vice-President")%> to request access.</p>
+		<p>
+		<p><label for="login">Login</label>
+		<%= text_field_tag 'login' %></p>
+
+		<p><label for="password">Password</label>
+		<%= password_field_tag 'password' %><br>
+		<span><%= link_to "forgot  your password?", :action => "forgot_password" %></span>
+		</p>
+
+		<p><%= submit_tag 'Log in' %></p>
+	</fieldset>
+<% end -%>

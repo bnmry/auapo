@@ -1,0 +1,7 @@
+<%= error_messages_for 'status' %>
+
+<!--[form:status]-->
+<p><label for="status_name">Name</label><br/>
+<%= text_field 'status', 'name'  %></p>
+<!--[eoform:status]-->
+

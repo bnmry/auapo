@@ -1,0 +1,27 @@
+<h1>Listing activities</h1>
+
+<table>
+  <tr>
+  <% for column in Activity.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for activity in @activities %>
+  <tr>
+  <% for column in Activity.content_columns %>
+    <td><%=h activity.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => activity %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => activity %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => activity }, :confirm => 'Are you sure?', :method => :post  %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @activity_pages.current.previous } if @activity_pages.current.previous %>
+<%= link_to 'Next page', { :page => @activity_pages.current.next } if @activity_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New activity', :action => 'new' %>
